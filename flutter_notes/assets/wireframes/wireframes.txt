@@ -1,0 +1,47 @@
+WIREFRAMES (ASCII)
+
+1) Login Page
++--------------------------------------+
+|           [ Sticky Note Icon ]       |
+|              Notes App               |
+|                                      |
+|  [ Nom d'utilisateur            ]    |
+|  [ Mot de passe (••••••)        ]    |
+|  [ Se connecter ]                    |
+|                                      |
+|  Erreur (si besoin)                  |
++--------------------------------------+
+
+2) Home (Mes Notes)
++--------------------------------------+
+|  <Mes Notes>                [⎋]      |
+|--------------------------------------|
+|  [Titre de note 1]  [trash]          |
+|  contenu aperçu...                   |
+|--------------------------------------|
+|  [Titre de note 2]  [trash]          |
+|  contenu aperçu...                   |
+|--------------------------------------|
+|                                      |
+|                         [ + ]        |
++--------------------------------------+
+
+3) Edit Note
++--------------------------------------+
+|  <Modifier la note>       [Sauver]   |
+|--------------------------------------|
+|  Créée: 01 Jan 2024  •  Modifiée: ...|
+|  [ Titre                      ]       |
+|                                      |
+|  [ Contenu (champ multilignes)   ]    |
+|  |                                |   |
+|  |                                |   |
+|  |                                |   |
+|                                      |
+|  [Annuler]      [Sauvegarder]        |
++--------------------------------------+
+
+Recommandations UI
+- Palette douce (Material3), fond clair, boutons Filled.
+- Espacements 12-16px, champs arrondis 12px.
+- SnackBars pour feedback.
